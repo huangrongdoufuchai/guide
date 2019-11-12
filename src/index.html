@@ -6,7 +6,7 @@
   <meta name="viewport"
     content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>前航 - 前端导航网站</title>
+  <title>pilot - site navigation</title>
   <style type="text/css">
     .icon {
       width: 1em;
@@ -16,18 +16,29 @@
       overflow: hidden;
     }
   </style>
+
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="alertify.css">
 </head>
 
 <body>
   <header class="globalHeader">
+      <section id="intro">
+          <h1>pilot</h1>
+          <p><em>a minimal site navigation</em></p>
+         
+          <p><em>use it as your homepage, you can add your favorite web on it</em></p>
+        </section>
     <form class="searchForm" method="get"
       action="https://www.baidu.com/s"
     >
       <input name="wd" type="text">
-      <button type="submit">搜索</button>
+      <button type="submit">search</button>
     </form>
+  
   </header>
+
+  </section>
   <main class="globalMain">
     <ul class="siteList">
       <li class="last">
@@ -37,11 +48,12 @@
               <use xlink:href="#icon-add"></use>
             </svg>
           </div>
-          <div class="text">新增网站</div>
+          <div class="text">add new website</div>
 
         </div>
       </li>
     </ul>
+   
   </main>
 
   <script src="//at.alicdn.com/t/font_1473630_8pfq4zss4o8.js"></script>

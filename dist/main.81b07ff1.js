@@ -152,7 +152,7 @@ var render = function render() {
 
 render();
 $('.addButton').on('click', function () {
-  var url = window.prompt('请问你要添加的网址是？');
+  var url = window.prompt('The website to add？');
 
   if (url.indexOf('http') !== 0) {
     url = 'https://' + url;
@@ -181,4 +181,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.cb00dda1.js.map
+//# sourceMappingURL=main.81b07ff1.js.map
